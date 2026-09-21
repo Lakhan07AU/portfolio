@@ -17,16 +17,3 @@ A static portfolio built with HTML, CSS and vanilla JavaScript. The visual direc
 - HealthSphere — https://github.com/Lakhan07AU/Projects/tree/main/HealthSphere
 - RoadGuard — https://github.com/Lakhan07AU/Projects/tree/main/RoadGuard
 
-## Run locally
-
-Open `index.html` directly, or run:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Before publishing
-
-Replace `YOUR_EMAIL@example.com` with your email and add your LinkedIn URL. Add a resume file once the final resume is ready.
