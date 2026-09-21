@@ -68,5 +68,24 @@
       set('commitCount',commits?.total_count ?? '—');
     }catch{ set('repoCount','—'); set('starCount','—'); set('followerCount','—'); set('commitCount','—'); }
   }
+  const themeToggle = document.getElementById('themeToggle');
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  const applyTheme = () => {
+    const light = document.documentElement.dataset.theme === 'light';
+    themeMeta?.setAttribute('content', light ? '#eef2ef' : '#050505');
+    themeToggle?.setAttribute('aria-pressed', String(light));
+    themeToggle?.setAttribute('aria-label', light ? 'Switch to dark theme' : 'Switch to light theme');
+  };
+  const storedTheme = localStorage.getItem('portfolio-theme');
+  if (storedTheme) document.documentElement.dataset.theme = storedTheme;
+  else if (window.matchMedia('(prefers-color-scheme: light)').matches) document.documentElement.dataset.theme = 'light';
+  applyTheme();
+  themeToggle?.addEventListener('click', () => {
+    const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+    document.documentElement.dataset.theme = next;
+    localStorage.setItem('portfolio-theme', next);
+    applyTheme();
+  });
+
   loadGithub();
 })();
