@@ -1,1 +1,1732 @@
 [browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] ./components/chrome/Navbar.tsx:8:1
+Error: Export ThemeToggle doesn't exist in target module
+   6 | import { navLinks, site } from "@/lib/site";
+   7 | import { Magnetic } from "@/components/ui/Magnetic";
+>  8 | import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
+  11 |
+
+The export ThemeToggle was not found in module [project]/components/chrome/ThemeToggle.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/chrome/Navbar.tsx
+    ./app/page.tsx 
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          data-scroll-behavior="smooth"
++                         className="inter_7b064e0d-module__MOT0tq__variable space_grotesk_4f9f433b-module__fJfFLG__va..."
+-                         className="inter_7b064e0d-module__MOT0tq__variable space_grotesk_4f9f433b-module__fJfFLG__va..."
+                        >
+                  ...
+ 
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { navLinks, site } from "@/lib/site";
 import { Magnetic } from "@/components/ui/Magnetic";
-import { ThemeToggle } from "@/components/chrome/ThemeToggle";
+import ThemeToggle from "@/components/chrome/ThemeToggle";
 
 const sectionIds = navLinks.map((l) => l.href.replace("#", ""));
 

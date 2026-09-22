@@ -71,9 +71,10 @@ const themeInit = `(function(){try{var t=localStorage.getItem("portfolio-theme")
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html
+<html
       lang="en"
       data-scroll-behavior="smooth"
+      suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
       <head>
