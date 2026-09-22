@@ -120,6 +120,21 @@ export function Hero() {
 
           <motion.p
             variants={item}
+            className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted"
+          >
+            <span className="font-medium text-foreground/80">BCA Student</span>
+            <span className="text-accent/70" aria-hidden="true">
+              ·
+            </span>
+            <span>Artificial Intelligence &amp; Machine Learning</span>
+            <span className="text-accent/70" aria-hidden="true">
+              ·
+            </span>
+            <span>{site.education.school}</span>
+          </motion.p>
+
+          <motion.p
+            variants={item}
             className="mt-7 max-w-2xl text-base leading-relaxed text-muted md:text-lg"
           >
             I build practical AI systems that turn machine learning, generative AI, and computer
