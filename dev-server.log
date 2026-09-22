@@ -1,0 +1,54 @@
+
+> portfolio@0.1.0 dev
+> next dev
+
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.5.161.154:3000
+✓ Ready in 423ms
+✓ Running next.config.ts took 43ms
+
+ GET / 200 in 543ms (next.js: 179ms, application-code: 364ms)
+ GET / 200 in 263ms (next.js: 8ms, application-code: 255ms)
+ GET / 200 in 247ms (next.js: 7ms, application-code: 240ms)
+✓ Compiled in 156ms
+✓ Compiled in 64ms
+✓ Compiled in 125ms
+✓ Compiled in 141ms
+✓ Compiled in 73ms
+ GET / 200 in 43ms (next.js: 8ms, application-code: 35ms)
+ GET / 200 in 84ms (next.js: 14ms, application-code: 70ms)
+✓ Compiled in 84ms
+ GET / 200 in 69ms (next.js: 10ms, application-code: 59ms)
+✓ Compiled in 194ms
+✓ Compiled in 95ms
+✓ Compiled in 110ms
+✓ Compiled in 89ms
+✓ Compiled in 286ms
+✓ Compiled in 108ms
+✓ Compiled in 81ms
+✓ Compiled in 80ms
+✓ Compiled in 92ms
+✓ Compiled in 74ms
+✓ Compiled in 71ms
+✓ Compiled in 145ms
+✓ Compiled in 76ms
+✓ Compiled in 94ms
+✓ Compiled in 86ms
+✓ Compiled in 105ms
+✓ Compiled in 82ms
+✓ Compiled in 73ms
+✓ Compiled in 81ms
+✓ Compiled in 64ms
+✓ Compiled in 62ms
+✓ Compiled in 67ms
+✓ Compiled in 118ms
+✓ Compiled in 85ms
+✓ Compiled in 82ms
+✓ Compiled in 111ms
+✓ Compiled in 75ms
+✓ Compiled in 72ms
+✓ Compiled in 79ms
+✓ Compiled in 75ms
+✓ Compiled in 79ms
+✓ Compiled in 57ms
