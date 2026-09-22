@@ -3,6 +3,7 @@ import { Navbar } from "@/components/chrome/Navbar";
 import { Hero } from "@/components/sections/Hero";
 import { Ticker } from "@/components/sections/Ticker";
 import { About } from "@/components/sections/About";
+import { Stats } from "@/components/sections/Stats";
 import { Expertise } from "@/components/sections/Expertise";
 import { Projects } from "@/components/sections/Projects";
 import { Journey } from "@/components/sections/Journey";
@@ -21,6 +22,7 @@ export default function Home() {
         <Hero />
         <Ticker />
         <About />
+        <Stats />
         <Expertise />
         <Projects />
         <Journey />

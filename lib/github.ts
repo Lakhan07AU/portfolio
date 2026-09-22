@@ -27,6 +27,9 @@ const API = "https://api.github.com";
 const ACCEPT = { Accept: "application/vnd.github+json" };
 const USERNAME = "Lakhan07AU";
 
+// Repos to hide from the portfolio's GitHub section (e.g. unfinished/placeholder repos).
+export const HIDDEN_REPOS = new Set(["Bussiness-Analytics-Projects"]);
+
 async function guard<T>(request: Promise<Response>): Promise<T | null> {
   try {
     const res = await request;

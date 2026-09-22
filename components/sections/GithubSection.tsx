@@ -8,6 +8,7 @@ import {
   summarizeLanguages,
   totalStars,
   formatNumber,
+  HIDDEN_REPOS,
   type GithubUser,
   type GithubRepo,
 } from "@/lib/github";
@@ -53,7 +54,10 @@ export function GithubSection() {
     };
   }, []);
 
-  const owned = useMemo(() => (repos ?? []).filter((r) => !r.fork && !r.archived), [repos]);
+  const owned = useMemo(
+    () => (repos ?? []).filter((r) => !r.fork && !r.archived && !HIDDEN_REPOS.has(r.name)),
+    [repos],
+  );
   const languages = useMemo(() => summarizeLanguages(owned), [owned]);
   const stars = useMemo(() => totalStars(owned), [owned]);
   const topRepos = useMemo(
