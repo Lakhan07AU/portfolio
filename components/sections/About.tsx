@@ -5,6 +5,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
 import { Magnetic } from "@/components/ui/Magnetic";
 import { site } from "@/lib/site";
+import { pub } from "@/lib/paths";
 import { GitHubIcon, LinkedInIcon } from "@/components/ui/BrandIcons";
 
 const profile = [
@@ -84,11 +85,29 @@ export function About() {
                 aria-hidden="true"
                 className="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-accent/15 blur-3xl"
               />
-              <div className="mb-6 flex items-center justify-between">
-                <h3 className="font-display text-lg font-semibold text-foreground">Profile</h3>
-                <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-accent">
-                  Recruiter-ready
-                </span>
+              <div className="mb-6 flex items-center gap-4">
+                <div className="relative shrink-0">
+                  <div
+                    aria-hidden="true"
+                    className="absolute -inset-2 rounded-full bg-accent/20 blur-xl"
+                  />
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={pub(site.photoUrl)}
+                    alt={`Portrait of ${site.name}`}
+                    width={72}
+                    height={72}
+                    className="relative h-[72px] w-[72px] rounded-full border border-edge object-cover"
+                  />
+                </div>
+                <div className="min-w-0">
+                  <h3 className="font-display text-lg font-semibold text-foreground">
+                    {site.name}
+                  </h3>
+                  <span className="mt-0.5 inline-block font-mono text-[11px] uppercase tracking-[0.25em] text-accent">
+                    Recruiter-ready
+                  </span>
+                </div>
               </div>
 
               <dl className="space-y-5">

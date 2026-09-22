@@ -48,6 +48,39 @@ function TypewriterRole() {
   );
 }
 
+function Portrait() {
+  return (
+    <div className="relative mx-auto w-fit">
+      <div
+        aria-hidden="true"
+        className="absolute -inset-8 rounded-full bg-accent/20 blur-3xl"
+      />
+      <div className="relative rounded-full bg-background/50 p-2 ring-1 ring-edge backdrop-blur-md">
+        <div className="rounded-full p-1.5 ring-1 ring-accent/40">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={pub(site.photoUrl)}
+            alt={`Portrait of ${site.name}`}
+            width={320}
+            height={320}
+            className="h-48 w-48 rounded-full object-cover sm:h-60 sm:w-60 lg:h-72 lg:w-72"
+          />
+        </div>
+        <span
+          aria-hidden="true"
+          className="absolute bottom-5 right-5 flex items-center gap-1.5 rounded-full bg-background/90 px-2.5 py-1 text-[11px] font-medium text-foreground shadow-lg ring-1 ring-edge backdrop-blur"
+        >
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
+          </span>
+          Open to work
+        </span>
+      </div>
+    </div>
+  );
+}
+
 function RotatingExpertise() {
   const reduce = useReducedMotion();
   const [index, setIndex] = useState(0);
@@ -94,7 +127,8 @@ export function Hero() {
       </div>
 
       <div className="container-site relative flex min-h-svh flex-col justify-center pt-28 pb-24 md:pt-32">
-        <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">
+        <div className="grid items-center gap-14 lg:grid-cols-[1.15fr_0.85fr]">
+          <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">
           <motion.span
             variants={item}
             className="section-label mb-6"
@@ -202,6 +236,16 @@ export function Hero() {
             </div>
           </motion.div>
         </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.92 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 1.15, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+          className="order-first lg:order-none"
+        >
+          <Portrait />
+        </motion.div>
+        </div>
       </div>
 
       {/* scroll indicator */}

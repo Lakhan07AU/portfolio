@@ -9,6 +9,7 @@ export const site = {
   githubUrl: "https://github.com/Lakhan07AU",
   linkedinUrl: "https://www.linkedin.com/in/lakhan-singh-8091b833/",
   email: "lakhansingh070707@gmail.com",
+  photoUrl: "/assets/profile.png",
   resumeUrl: "/assets/resume.pdf",
   education: {
     degree: "BCA — Artificial Intelligence & Machine Learning",

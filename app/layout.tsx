@@ -51,6 +51,12 @@ export const metadata: Metadata = {
     siteName: "Lakhan Singh Portfolio",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/assets/profile.png",
+        alt: "Lakhan Singh — AI/ML Developer",
+      },
+    ],
   },
   twitter: {
     card: "summary",
