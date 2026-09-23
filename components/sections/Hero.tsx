@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { ArrowDown, ArrowUpRight, Download } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Download, GraduationCap } from "lucide-react";
 import { site } from "@/lib/site";
 import { pub } from "@/lib/paths";
 import { Magnetic } from "@/components/ui/Magnetic";
@@ -152,20 +152,32 @@ export function Hero() {
             <RotatingExpertise />
           </motion.div>
 
-          <motion.p
+          <motion.div
             variants={item}
-            className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted"
+            className="relative mt-5 inline-flex w-fit max-w-full flex-wrap items-center gap-x-3 gap-y-2 overflow-hidden rounded-2xl border border-accent/35 bg-gradient-to-r from-accent/15 via-accent/[0.06] to-transparent py-2 pl-2 pr-5 neon-ring"
           >
-            <span className="font-medium text-foreground/80">BCA Student</span>
-            <span className="text-accent/70" aria-hidden="true">
-              ·
+            <span className="relative flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-accent/15 ring-1 ring-accent/40">
+              <GraduationCap className="h-4.5 w-4.5 text-accent" aria-hidden="true" />
             </span>
-            <span>Artificial Intelligence &amp; Machine Learning</span>
-            <span className="text-accent/70" aria-hidden="true">
-              ·
+            <span className="flex flex-col leading-tight">
+              <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-accent">
+                BCA · Artificial Intelligence &amp; Machine Learning
+              </span>
+              <span className="text-base font-semibold text-foreground">
+                Student at{" "}
+                <span className="text-gradient">
+                  {site.education.school}
+                </span>
+              </span>
             </span>
-            <span>{site.education.school}</span>
-          </motion.p>
+            <motion.span
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-y-0 w-20 bg-gradient-to-r from-transparent via-foreground/15 to-transparent blur-[2px]"
+              initial={{ left: "-15%" }}
+              animate={{ left: "115%" }}
+              transition={{ duration: 2.6, repeat: Infinity, repeatDelay: 3.4, ease: "easeInOut" }}
+            />
+          </motion.div>
 
           <motion.p
             variants={item}
